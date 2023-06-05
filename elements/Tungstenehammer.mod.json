@@ -1,0 +1,32 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "tungstene_amer",
+    "customModelName": "Normal",
+    "name": "Tungstenehammer",
+    "specialInfo": [
+      "casse les bloc en 3X3"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Tungstenemod"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 20.0,
+    "attackSpeed": 5.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "TungstenehammerQuandLeBlocEstDetruitAvecLoutil"
+    }
+  }
+}

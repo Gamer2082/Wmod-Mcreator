@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tungstenefirewolkmod:blocks/tungstene_bloc",
+    "up": "tungstenefirewolkmod:blocks/tungstene_bloc",
+    "north": "tungstenefirewolkmod:blocks/tungstene_bloc",
+    "east": "tungstenefirewolkmod:blocks/tungstene_bloc",
+    "south": "tungstenefirewolkmod:blocks/tungstene_bloc",
+    "west": "tungstenefirewolkmod:blocks/tungstene_bloc",
+    "particle": "tungstenefirewolkmod:blocks/tungstene_bloc"
+  }
+}

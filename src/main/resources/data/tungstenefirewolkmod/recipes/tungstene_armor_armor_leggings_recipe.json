@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "1": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "2": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "3": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "5": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "6": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "8": {
+      "item": "tungstenefirewolkmod:tungstene"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:tungstene_armor_armor_leggings",
+    "count": 1
+  }
+}

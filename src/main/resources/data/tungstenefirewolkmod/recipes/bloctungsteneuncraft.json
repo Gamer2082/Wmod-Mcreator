@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tungstenefirewolkmod:tungstenebloxc"
+    }
+  ],
+  "result": {
+    "item": "tungstenefirewolkmod:tungstene",
+    "count": 9
+  }
+}

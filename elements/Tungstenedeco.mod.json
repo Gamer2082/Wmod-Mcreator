@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Tungstenedeco",
+    "icon": {
+      "value": "Blocks.QUARTZ_BLOCK#1"
+    },
+    "showSearch": false
+  }
+}

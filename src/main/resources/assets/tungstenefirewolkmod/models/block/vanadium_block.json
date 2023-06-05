@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tungstenefirewolkmod:blocks/vanadium_ore_block",
+    "particle": "tungstenefirewolkmod:blocks/vanadium_ore_block"
+  }
+}

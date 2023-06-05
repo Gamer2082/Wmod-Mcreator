@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tungstenefirewolkmod:default_stone"
+  },
+  "addition": {
+    "item": "tungstenefirewolkmod:rich_s_tone"
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:pepite_de_vanadium"
+  }
+}

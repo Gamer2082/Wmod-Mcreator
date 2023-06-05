@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "1": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "2": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "3": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:alluminiumhammer",
+    "count": 1
+  }
+}

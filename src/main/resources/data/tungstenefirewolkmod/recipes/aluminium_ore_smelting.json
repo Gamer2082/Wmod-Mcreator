@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.0999999999999996,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "tungstenefirewolkmod:aluminium_ore"
+  },
+  "result": "tungstenefirewolkmod:aluminium_ingot"
+}

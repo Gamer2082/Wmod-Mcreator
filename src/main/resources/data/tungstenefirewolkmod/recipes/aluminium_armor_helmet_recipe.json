@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "1": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "2": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "3": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    },
+    "5": {
+      "item": "tungstenefirewolkmod:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:aluminium_armor_helmet",
+    "count": 1
+  }
+}

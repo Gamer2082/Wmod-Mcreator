@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "aluminium_hoe",
+    "customModelName": "Normal",
+    "name": "Aluminium Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Tungstenemod"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 42,
+    "damageVsEntity": 6.0,
+    "usageCount": 1164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AluminiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

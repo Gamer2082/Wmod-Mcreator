@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tungstenefirewolkmod:aluminium_ore",
+    "tungstenefirewolkmod:aluminium_block",
+    "tungstenefirewolkmod:vanadium_block"
+  ]
+}

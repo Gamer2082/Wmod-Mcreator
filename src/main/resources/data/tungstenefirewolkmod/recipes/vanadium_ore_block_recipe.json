@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "1": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "2": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "3": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "4": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "5": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "6": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "7": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "8": {
+      "item": "tungstenefirewolkmod:vanadium"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:vanadium_block",
+    "count": 1
+  }
+}

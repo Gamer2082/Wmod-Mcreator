@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tungstenefirewolkmod:items/aluminium_shovel"
+  }
+}

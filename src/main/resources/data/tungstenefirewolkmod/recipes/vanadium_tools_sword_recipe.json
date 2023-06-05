@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "1": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:vanadium_tools_sword",
+    "count": 1
+  }
+}

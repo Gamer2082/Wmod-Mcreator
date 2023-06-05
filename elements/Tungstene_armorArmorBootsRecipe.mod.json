@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tungstene"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tungstene"
+      },
+      {
+        "value": "CUSTOM:Tungstene"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tungstene"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tungstene_armorArmor.boots"
+    },
+    "name": "tungstene_armor_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

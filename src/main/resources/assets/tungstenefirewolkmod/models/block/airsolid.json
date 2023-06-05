@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tungstenefirewolkmod:blocks/solidair",
+    "up": "tungstenefirewolkmod:blocks/solidair",
+    "north": "tungstenefirewolkmod:blocks/solidair",
+    "east": "tungstenefirewolkmod:blocks/solidair",
+    "south": "tungstenefirewolkmod:blocks/solidair",
+    "west": "tungstenefirewolkmod:blocks/solidair",
+    "particle": "tungstenefirewolkmod:blocks/solidair"
+  }
+}

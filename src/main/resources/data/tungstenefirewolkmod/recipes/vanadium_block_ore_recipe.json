@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tungstenefirewolkmod:vanadium_block"
+    }
+  ],
+  "result": {
+    "item": "tungstenefirewolkmod:vanadium",
+    "count": 9
+  }
+}

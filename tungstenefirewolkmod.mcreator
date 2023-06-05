@@ -1,0 +1,1466 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tungstenemod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenemod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tungstenebloxc",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenebloxc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/tungstenebloxc.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/tungstenebloxc.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstenebloxc.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/TungstenebloxcBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Tungsteneore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsteneore",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/TungsteneoreBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/tungsteneore.json",
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/tungsteneore.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/world/features/ores/TungsteneoreFeature.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungsteneore.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/TungsteneItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstenerecette",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenerecette",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstenerecette.json"
+        ]
+      }
+    },
+    {
+      "name": "Bloctungstenecraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloctungstenecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/bloctungstenecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Bloctungsteneuncraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloctungsteneuncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/bloctungsteneuncraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_armorArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Tungstene_armorArmorItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_armor_armor_leggings.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_armor_armor_chestplate.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_armor_armor_helmet.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_armor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_armor_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_armor_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsPickaxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Tungstene_toolsPickaxeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_tools_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsAxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Tungstene_toolsAxeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_tools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Tungstene_toolsSwordItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_tools_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Tungstene_toolsShovelItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_tools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Tungstene_toolsHoeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstene_tools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstene_toolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstene_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/tungstene_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenehammerQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenehammer_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/procedures/TungstenehammerQuandLeBlocEstDetruitAvecLoutilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tungstenehammer",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenehammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/tungstenehammer.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/TungstenehammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumIngotItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/aluminium_ore.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_ore.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/AluminiumOreBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/aluminium_ore.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/world/features/ores/AluminiumOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/aluminium_block.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/AluminiumBlockBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/aluminium_block.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumOreSmelting",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumPickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumPickaxeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumAxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumAxeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumSword",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_sword.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumShovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumShovelItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumHoe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumHoeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumArmor",
+      "type": "armor",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_armor_helmet.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_armor_boots.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AluminiumArmorItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_armor_leggings.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminium_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminium_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Alluminiumhammer",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alluminiumhammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/alluminiumhammer.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AlluminiumhammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tungstenedeco",
+      "type": "tab",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenedeco",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Neonbloc",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonbloc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/neonbloc.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/neonbloc.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/neonbloc.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/NeonblocBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerstoneEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerstone_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/procedures/PowerstoneEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Powerstone",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerstone",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/PowerstoneItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/powerstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Hammertungstenecraft",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammertungstenecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/hammertungstenecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstenehammercraft",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenehammercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/aluminiumhammercraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumcolorerouge",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumcolorerouge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/aluminiumcolorerouge.json",
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/aluminiumcolorerouge.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/AluminiumcolorerougeBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/aluminiumcolorerouge.json"
+        ]
+      }
+    },
+    {
+      "name": "Alurouge",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alurouge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/alurouge.json"
+        ]
+      }
+    },
+    {
+      "name": "Alugris",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alugris",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/alugris.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/alugris.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/AlugrisBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/alugris.json"
+        ]
+      }
+    },
+    {
+      "name": "Alugriscraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alugriscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/alugriscraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Coin",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/coin.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/CoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fireskeletonbossfleau",
+      "type": "livingentity",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireskeletonbossfleau",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/client/renderer/FireskeletonbossfleauRenderer.java",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/entity/FireskeletonbossfleauEntity.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/fireskeletonbossfleau_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "HealStone",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/heal_stone.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/HealStoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HealStoneEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_stone_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/procedures/HealStoneEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RichSTone",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_s_tone",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/RichSToneItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/rich_s_tone.json"
+        ]
+      }
+    },
+    {
+      "name": "DefaultStoneEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_stone_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/procedures/DefaultStoneEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DefaultStone",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/default_stone.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/DefaultStoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Airsolid",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airsolid",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/AirsolidBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/airsolid.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/airsolid.json",
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/airsolid.json"
+        ]
+      }
+    },
+    {
+      "name": "SolidAirblock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solid_airblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/solid_airblock.json",
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/solid_airblock.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/solid_airblock.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/SolidAirblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RichSToneEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_s_tone_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/procedures/RichSToneEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TungstenearmorArmorEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenearmor_armor_evenement_de_tick_du_casque",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/procedures/TungstenearmorArmorEvenementDeTickDuCasqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vanadium",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/VanadiumItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium.json"
+        ]
+      }
+    },
+    {
+      "name": "VanadiumBlock",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/VanadiumBlockBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_block.json",
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/vanadium_block.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/vanadium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "VanadiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VanadiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PepiteDeVanadium",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepite_de_vanadium",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/PepiteDeVanadiumItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/pepite_de_vanadium.json"
+        ]
+      }
+    },
+    {
+      "name": "VanadiumCraft",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "VanadiumCraft2",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_craft_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ArmorArmor",
+      "type": "armor",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_armor_armor_chestplate.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_armor_armor_boots.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_armor_armor_helmet.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_armor_armor_leggings.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Vanadium_ArmorArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_armor_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_armor_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/vanadium_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Vanadium_ToolsPickaxeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_tools_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ToolsAxe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Vanadium_ToolsAxeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_tools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ToolsSword",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_tools_sword.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Vanadium_ToolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ToolsShovel",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_tools_shovel.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Vanadium_ToolsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ToolsHoe",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/Vanadium_ToolsHoeItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/vanadium_tools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vanadium_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_pickaxe_recipe"
+    },
+    {
+      "name": "Vanadium_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_axe_recipe"
+    },
+    {
+      "name": "Vanadium_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_sword_recipe"
+    },
+    {
+      "name": "Vanadium_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_shovel_recipe"
+    },
+    {
+      "name": "Vanadium_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanadium_tools_hoe_recipe"
+    },
+    {
+      "name": "NeonBarre",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_barre",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/block/NeonBarreBlock.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/neon_barre.json",
+          "src/main/resources/assets/tungstenefirewolkmod/blockstates/neon_barre.json",
+          "src/main/resources/assets/tungstenefirewolkmod/models/block/neon_barre.json"
+        ]
+      }
+    },
+    {
+      "name": "Auther",
+      "type": "livingentity",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auther",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/auther_spawn_egg.json",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/entity/AutherEntity.java",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/client/renderer/AutherRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "AdminSword",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/item/AdminSwordItem.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/admin_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "ADmin",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_dmin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tungstenefirewolkmod/recipes/a_dmin.json"
+        ]
+      }
+    },
+    {
+      "name": "FRIEND",
+      "type": "livingentity",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friend",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/client/renderer/FRIENDRenderer.java",
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/entity/FRIENDEntity.java",
+          "src/main/resources/assets/tungstenefirewolkmod/models/item/friend_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SwallDangon",
+      "type": "structure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swall_dangon",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/world/features/SwallDangonFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "InfectedCastel",
+      "type": "structure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_castel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/gamer_m/tungstenefirewolkmod/world/features/InfectedCastelFeature.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.tungstenefirewolkmod.neon_barre": "Neon Barre",
+      "block.tungstenefirewolkmod.alugris": "Aluminium coloré rose",
+      "item.tungstenefirewolkmod.aluminium_ingot": "Aluminium",
+      "item.tungstenefirewolkmod.auther_spawn_egg": "Auther Spawn Egg",
+      "item.tungstenefirewolkmod.aluminium_axe": "Aluminium Axe",
+      "item.tungstenefirewolkmod.pepite_de_vanadium": "Pepite De Vanadium",
+      "block.tungstenefirewolkmod.aluminium_block": "Block of Aluminium",
+      "item.tungstenefirewolkmod.vanadium_tools_shovel": "Vanadium_Tools Shovel",
+      "item.tungstenefirewolkmod.tungstene_tools_shovel": "Tungstene_tools Shovel",
+      "block.tungstenefirewolkmod.solid_airblock": "Solid Airblock",
+      "item.tungstenefirewolkmod.aluminium_armor_boots": "Aluminium Boots",
+      "item.tungstenefirewolkmod.vanadium_tools_hoe": "Vanadium_Tools Hoe",
+      "item.tungstenefirewolkmod.aluminium_armor_helmet": "Aluminium Helmet",
+      "item.tungstenefirewolkmod.vanadium": "Vanadium",
+      "item.tungstenefirewolkmod.friend_spawn_egg": "FRIEND Spawn Egg",
+      "item.tungstenefirewolkmod.tungstene_tools_pickaxe": "Tungstene_tools Pickaxe",
+      "item.tungstenefirewolkmod.coin": "Coin",
+      "item.tungstenefirewolkmod.tungstene_tools_sword": "Tungstene_tools Sword",
+      "item.tungstenefirewolkmod.tungstene_tools_axe": "Tungstene_tools Axe",
+      "entity.tungstenefirewolkmod.auther": "Auther",
+      "item.tungstenefirewolkmod.vanadium_armor_armor_chestplate": "Vanadium_Armor Chestplate",
+      "item.tungstenefirewolkmod.tungstene_armor_armor_helmet": "Tungstene_armor Helmet",
+      "block.tungstenefirewolkmod.aluminiumcolorerouge": "Aluminium colore rouge",
+      "item.tungstenefirewolkmod.vanadium_armor_armor_helmet": "Vanadium_Armor Helmet",
+      "item.tungstenefirewolkmod.aluminium_sword": "Aluminium Sword",
+      "itemGroup.tabtungstenedeco": "Tungstenedeco",
+      "entity.tungstenefirewolkmod.friend": "FRIEND",
+      "block.tungstenefirewolkmod.tungsteneore": "Tungsteneore",
+      "item.tungstenefirewolkmod.aluminium_hoe": "Aluminium Hoe",
+      "item.tungstenefirewolkmod.vanadium_armor_armor_boots": "Vanadium_Armor Boots",
+      "block.tungstenefirewolkmod.aluminium_ore": "Aluminium Ore",
+      "block.tungstenefirewolkmod.neonbloc": "Neonbloc",
+      "item.tungstenefirewolkmod.tungstene_armor_armor_chestplate": "Tungstene_armor Chestplate",
+      "block.tungstenefirewolkmod.tungstenebloxc": "Tungstene bloc",
+      "item.tungstenefirewolkmod.default_stone": "Default Stone",
+      "item.tungstenefirewolkmod.alluminiumhammer": "Alluminiumhammer",
+      "item.tungstenefirewolkmod.tungstenehammer": "Tungstenehammer",
+      "item.tungstenefirewolkmod.admin_sword": "Admin Sword",
+      "item.tungstenefirewolkmod.vanadium_tools_sword": "Vanadium_Tools Sword",
+      "item.tungstenefirewolkmod.vanadium_tools_pickaxe": "Vanadium_Tools Pickaxe",
+      "item.tungstenefirewolkmod.tungstene_tools_hoe": "Tungstene_tools Hoe",
+      "item.tungstenefirewolkmod.aluminium_shovel": "Aluminium Shovel",
+      "block.tungstenefirewolkmod.vanadium_block": "Block of Vanadium",
+      "item.tungstenefirewolkmod.rich_s_tone": "Rich S Tone",
+      "item.tungstenefirewolkmod.vanadium_armor_armor_leggings": "Vanadium_Armor Leggings",
+      "item.tungstenefirewolkmod.vanadium_tools_axe": "Vanadium_Tools Axe",
+      "item.tungstenefirewolkmod.tungstene": "Tungstene",
+      "item.tungstenefirewolkmod.powerstone": "Powerstone",
+      "item.tungstenefirewolkmod.aluminium_armor_chestplate": "Aluminium Chestplate",
+      "item.tungstenefirewolkmod.heal_stone": "Heal Stone",
+      "item.tungstenefirewolkmod.tungstene_armor_armor_boots": "Tungstene_armor Boots",
+      "item.tungstenefirewolkmod.fireskeletonbossfleau_spawn_egg": "entity:Fire_skeleton_boss_fleau Spawn Egg",
+      "entity.tungstenefirewolkmod.fireskeletonbossfleau": "entity:Fire_skeleton_boss_fleau",
+      "block.tungstenefirewolkmod.airsolid": "Airsolid",
+      "itemGroup.tabtungstenemod": "Tungstene mod",
+      "item.tungstenefirewolkmod.aluminium_pickaxe": "Aluminium Pickaxe",
+      "item.tungstenefirewolkmod.aluminium_armor_leggings": "Aluminium Leggings",
+      "item.tungstenefirewolkmod.tungstene_armor_armor_leggings": "Tungstene_armor Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tungstenefirewolkmod",
+    "modName": "Wmod",
+    "version": "4.1.0",
+    "author": "Gamer_m2082",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "fr.gamer_m.tungstenefirewolkmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

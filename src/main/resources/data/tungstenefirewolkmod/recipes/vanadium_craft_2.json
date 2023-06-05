@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tungstenefirewolkmod:heal_stone"
+  },
+  "addition": {
+    "item": "tungstenefirewolkmod:pepite_de_vanadium"
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:vanadium"
+  }
+}

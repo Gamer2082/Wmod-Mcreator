@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tungstenefirewolkmod:blocks/neon-bloc",
+    "up": "tungstenefirewolkmod:blocks/neon-bloc",
+    "north": "tungstenefirewolkmod:blocks/neon-bloc",
+    "east": "tungstenefirewolkmod:blocks/neon-bloc",
+    "south": "tungstenefirewolkmod:blocks/neon-bloc",
+    "west": "tungstenefirewolkmod:blocks/neon-bloc",
+    "particle": "tungstenefirewolkmod:blocks/neon-bloc"
+  }
+}

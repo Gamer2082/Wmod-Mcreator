@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "1": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "2": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "3": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "4": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "5": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "6": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "7": {
+      "item": "tungstenefirewolkmod:tungstene"
+    },
+    "8": {
+      "item": "tungstenefirewolkmod:tungstene"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:tungstenebloxc",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tungstenefirewolkmod:blocks/aluminiumcolore",
+    "up": "tungstenefirewolkmod:blocks/aluminiumcolore",
+    "north": "tungstenefirewolkmod:blocks/aluminiumcolore",
+    "east": "tungstenefirewolkmod:blocks/aluminiumcolore",
+    "south": "tungstenefirewolkmod:blocks/aluminiumcolore",
+    "west": "tungstenefirewolkmod:blocks/aluminiumcolore",
+    "particle": "tungstenefirewolkmod:blocks/aluminiumcolore"
+  }
+}

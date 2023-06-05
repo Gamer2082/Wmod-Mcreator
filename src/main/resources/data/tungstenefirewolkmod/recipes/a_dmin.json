@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bedrock"
+  },
+  "addition": {
+    "item": "minecraft:void_air"
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:admin_sword"
+  }
+}

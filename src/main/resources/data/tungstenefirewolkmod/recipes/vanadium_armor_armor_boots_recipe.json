@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "2": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "3": {
+      "item": "tungstenefirewolkmod:vanadium"
+    },
+    "5": {
+      "item": "tungstenefirewolkmod:vanadium"
+    }
+  },
+  "result": {
+    "item": "tungstenefirewolkmod:vanadium_armor_armor_boots",
+    "count": 1
+  }
+}

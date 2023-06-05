@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "tungstenefirewolkmod:block/neon_barre",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "tungstenefirewolkmod:block/neon_barre",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tungstenefirewolkmod:block/neon_barre",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "tungstenefirewolkmod:block/neon_barre",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "tungstenefirewolkmod:block/neon_barre"
+    },
+    "facing=west": {
+      "model": "tungstenefirewolkmod:block/neon_barre",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

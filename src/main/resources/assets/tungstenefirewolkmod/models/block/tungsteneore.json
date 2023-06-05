@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tungstenefirewolkmod:blocks/magnesium-ore",
+    "up": "tungstenefirewolkmod:blocks/magnesium-ore",
+    "north": "tungstenefirewolkmod:blocks/magnesium-ore",
+    "east": "tungstenefirewolkmod:blocks/magnesium-ore",
+    "south": "tungstenefirewolkmod:blocks/magnesium-ore",
+    "west": "tungstenefirewolkmod:blocks/magnesium-ore",
+    "particle": "tungstenefirewolkmod:blocks/magnesium-ore"
+  }
+}
