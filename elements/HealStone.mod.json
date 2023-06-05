@@ -29,14 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 20,
+    "saturation": 30.0,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.GOLDEN_APPLE#1"
     },
-    "isMeat": false,
-    "isAlwaysEdible": false,
+    "isMeat": true,
+    "isAlwaysEdible": true,
     "animation": "none"
   }
 }
