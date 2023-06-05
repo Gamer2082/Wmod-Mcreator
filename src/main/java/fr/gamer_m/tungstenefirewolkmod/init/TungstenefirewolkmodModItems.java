@@ -48,8 +48,8 @@ import fr.gamer_m.tungstenefirewolkmod.TungstenefirewolkmodMod;
 
 public class TungstenefirewolkmodModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TungstenefirewolkmodMod.MODID);
-	public static final RegistryObject<Item> TUNGSTENEBLOXC = block(TungstenefirewolkmodModBlocks.TUNGSTENEBLOXC, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
-	public static final RegistryObject<Item> TUNGSTENEORE = block(TungstenefirewolkmodModBlocks.TUNGSTENEORE, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
+	public static final RegistryObject<Item> TUNGSTENEBLOXC = block(TungstenefirewolkmodModBlocks.TUNGSTENEBLOXC, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
+	public static final RegistryObject<Item> TUNGSTENEORE = block(TungstenefirewolkmodModBlocks.TUNGSTENEORE, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
 	public static final RegistryObject<Item> TUNGSTENE = REGISTRY.register("tungstene", () -> new TungsteneItem());
 	public static final RegistryObject<Item> TUNGSTENE_ARMOR_ARMOR_HELMET = REGISTRY.register("tungstene_armor_armor_helmet", () -> new Tungstene_armorArmorItem.Helmet());
 	public static final RegistryObject<Item> TUNGSTENE_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("tungstene_armor_armor_chestplate", () -> new Tungstene_armorArmorItem.Chestplate());
@@ -62,7 +62,7 @@ public class TungstenefirewolkmodModItems {
 	public static final RegistryObject<Item> TUNGSTENE_TOOLS_HOE = REGISTRY.register("tungstene_tools_hoe", () -> new Tungstene_toolsHoeItem());
 	public static final RegistryObject<Item> TUNGSTENEHAMMER = REGISTRY.register("tungstenehammer", () -> new TungstenehammerItem());
 	public static final RegistryObject<Item> ALUMINIUM_INGOT = REGISTRY.register("aluminium_ingot", () -> new AluminiumIngotItem());
-	public static final RegistryObject<Item> ALUMINIUM_ORE = block(TungstenefirewolkmodModBlocks.ALUMINIUM_ORE, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
+	public static final RegistryObject<Item> ALUMINIUM_ORE = block(TungstenefirewolkmodModBlocks.ALUMINIUM_ORE, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
 	public static final RegistryObject<Item> ALUMINIUM_BLOCK = block(TungstenefirewolkmodModBlocks.ALUMINIUM_BLOCK, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
 	public static final RegistryObject<Item> ALUMINIUM_PICKAXE = REGISTRY.register("aluminium_pickaxe", () -> new AluminiumPickaxeItem());
 	public static final RegistryObject<Item> ALUMINIUM_AXE = REGISTRY.register("aluminium_axe", () -> new AluminiumAxeItem());
@@ -77,7 +77,7 @@ public class TungstenefirewolkmodModItems {
 	public static final RegistryObject<Item> NEONBLOC = block(TungstenefirewolkmodModBlocks.NEONBLOC, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
 	public static final RegistryObject<Item> POWERSTONE = REGISTRY.register("powerstone", () -> new PowerstoneItem());
 	public static final RegistryObject<Item> ALUMINIUMCOLOREROUGE = block(TungstenefirewolkmodModBlocks.ALUMINIUMCOLOREROUGE, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
-	public static final RegistryObject<Item> ALUGRIS = block(TungstenefirewolkmodModBlocks.ALUGRIS, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
+	public static final RegistryObject<Item> ALUGRIS = block(TungstenefirewolkmodModBlocks.ALUGRIS, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
 	public static final RegistryObject<Item> COIN = REGISTRY.register("coin", () -> new CoinItem());
 	public static final RegistryObject<Item> FIRESKELETONBOSSFLEAU_SPAWN_EGG = REGISTRY.register("fireskeletonbossfleau_spawn_egg",
 			() -> new ForgeSpawnEggItem(TungstenefirewolkmodModEntities.FIRESKELETONBOSSFLEAU, -13421773, -1, new Item.Properties().tab(TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD)));
@@ -86,7 +86,7 @@ public class TungstenefirewolkmodModItems {
 	public static final RegistryObject<Item> DEFAULT_STONE = REGISTRY.register("default_stone", () -> new DefaultStoneItem());
 	public static final RegistryObject<Item> AIRSOLID = block(TungstenefirewolkmodModBlocks.AIRSOLID, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
 	public static final RegistryObject<Item> SOLID_AIRBLOCK = block(TungstenefirewolkmodModBlocks.SOLID_AIRBLOCK, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
-	public static final RegistryObject<Item> VANADIUM_BLOCK = block(TungstenefirewolkmodModBlocks.VANADIUM_BLOCK, TungstenefirewolkmodModTabs.TAB_TUNGSTENEMOD);
+	public static final RegistryObject<Item> VANADIUM_BLOCK = block(TungstenefirewolkmodModBlocks.VANADIUM_BLOCK, TungstenefirewolkmodModTabs.TAB_TUNGSTENEDECO);
 	public static final RegistryObject<Item> VANADIUM = REGISTRY.register("vanadium", () -> new VanadiumItem());
 	public static final RegistryObject<Item> PEPITE_DE_VANADIUM = REGISTRY.register("pepite_de_vanadium", () -> new PepiteDeVanadiumItem());
 	public static final RegistryObject<Item> VANADIUM_ARMOR_ARMOR_HELMET = REGISTRY.register("vanadium_armor_armor_helmet", () -> new Vanadium_ArmorArmorItem.Helmet());

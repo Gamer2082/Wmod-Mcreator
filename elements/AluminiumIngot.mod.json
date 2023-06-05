@@ -8,7 +8,7 @@
     "name": "Aluminium",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Tungstenemod"
     },
     "stackSize": 64,
     "enchantability": 0,
